@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>BTC Trading Demo</h1>
+    <div class="stats">
+      <p>Wallet Balance: <span id="balance">$10,000.00</span></p>
+      <p>BTC Price: <span id="btc-price">$65,000.00</span></p>
+      <p>Holdings: <span id="holdings">0</span> BTC</p>
+    </div>
+    
+    <div class="actions">
+      <input type="number" id="trade-amount" placeholder="Amount (BTC)" step="0.01">
+      <button id="buy-btn" class="buy">Buy BTC</button>
+      <button id="sell-btn" class="sell">Sell BTC</button>
+    </div>
+
+    <div id="history-section">
+      <h3>Trade History</h3>
+      <ul id="trade-log"></ul>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

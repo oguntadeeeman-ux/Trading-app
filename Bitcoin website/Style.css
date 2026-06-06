@@ -1,0 +1,11 @@
+body { background: #0f172a; color: white; font-family: sans-serif; display: flex; justify-content: center; padding-top: 20px; }
+.app-container { background: #1e293b; padding: 2rem; border-radius: 15px; width: 350px; text-align: center; }
+.stats { margin: 20px 0; font-size: 1.1rem; }
+input { width: 90%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: none; }
+button { width: 100%; padding: 12px; margin: 5px 0; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; }
+.buy { background: #22c55e; color: white; }
+.sell { background: #ef4444; color: white; }
+.up { color: #22c55e; font-weight: bold; }
+.down { color: #ef4444; font-weight: bold; }
+#trade-log { list-style: none; padding: 0; margin-top: 15px; text-align: left; font-size: 0.85rem; max-height: 200px; overflow-y: auto; }
+#trade-log li { background: #334155; padding: 8px; margin-bottom: 5px; border-radius: 4px; }
